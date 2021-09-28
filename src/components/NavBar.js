@@ -22,7 +22,7 @@ const NavBar = () => {
       <div className="float-right">
         <ul className="flex text-white text-lg font-bold ">
           <li className="mr-6">
-            <a href="/">Sign In</a>
+            <a href="/">Login</a>
           </li>
           <li className="mr-6">
             <a href="/">Sign Up</a>

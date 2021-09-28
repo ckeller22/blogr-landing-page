@@ -1,7 +1,7 @@
-import NavBar from "./components/NavBar";
+import Showcase from "./components/Showcase";
 
 function App() {
-  return <NavBar />;
+  return <Showcase />;
 }
 
 export default App;
