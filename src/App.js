@@ -1,4 +1,4 @@
-import NavBar from "./components/NavBar";
+import Nav from "./components/Nav";
 import Showcase from "./components/Showcase";
 import SectionOne from "./components/SectionOne";
 import SectionTwo from "./components/SectionTwo";
@@ -7,6 +7,7 @@ import SectionThree from "./components/SectionThree";
 function App() {
   return (
     <div>
+      <Nav />
       <Showcase />
       <SectionOne />
       <SectionTwo />
