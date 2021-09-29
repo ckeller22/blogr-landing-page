@@ -1,3 +1,5 @@
+import backgroundImage from "../images/bg-pattern-intro.svg";
+
 const Showcase = () => {
   return (
     <section className="showcase">
@@ -8,11 +10,11 @@ const Showcase = () => {
         <p className="text-white">
           Grow your audience and build your online brand
         </p>
-        <div>
-          <button className="bg-white rounded-full py-2 px-4 text-light-red font-bold hover:bg-very-light-red hover:text-white">
+        <div className="flex items-center">
+          <button className="text-center bg-white rounded-full mx-1 my-5 py-2 px-4 text-light-red font-bold hover:bg-very-light-red hover:text-white">
             Start for Free
           </button>
-          <button className="bg-transparent py-2 px-4 text-rounded text-white font-bold border border-white rounded-full hover:bg-white hover:text-light-red">
+          <button className="text-center bg-transparent mx-1 my-5 py-2 px-4 text-rounded text-white font-bold border border-white rounded-full hover:bg-white hover:text-light-red">
             Learn More
           </button>
         </div>
