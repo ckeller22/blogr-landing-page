@@ -15,3 +15,5 @@ const navigation = [
     link: ["Contact", "Newsletter", "LinkedIn"],
   },
 ];
+
+export default navigation;

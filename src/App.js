@@ -6,8 +6,7 @@ import SectionThree from "./components/SectionThree";
 
 function App() {
   return (
-    <div>
-      <Nav />
+    <div className="">
       <Showcase />
       <SectionOne />
       <SectionTwo />

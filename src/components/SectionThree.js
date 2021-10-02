@@ -4,7 +4,11 @@ import mobileLaptopIllustration from "../images/illustration-laptop-mobile.svg";
 const SectionThree = () => {
   return (
     <section className="container mx-auto">
-      <img src={mobileLaptopIllustration} alt="laptop illustration" />
+      <img
+        className="mx-auto "
+        src={mobileLaptopIllustration}
+        alt="laptop illustration"
+      />
       <Info
         header="Free, open, simple"
         text="Blogr is a free and open source application backed by a large community

@@ -50,6 +50,14 @@ body {
 - Very dark gray blue: hsl(237, 17%, 21%)
 - Very dark desaturated blue: hsl(237, 23%, 32%) */
 
+/* Navigation */
+nav {
+  font-family: "Ubuntu", sans-serif;
+}
+
+button {
+  font-family: "Ubuntu", sans-serif;
+}
 /* Showcase */
 .showcase {
   background-image: var(--background-gradient);

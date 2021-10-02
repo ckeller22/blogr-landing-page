@@ -7,7 +7,11 @@ const SectionOne = () => {
       <h1 className="text-center font-bold text-3xl my-20">
         Designed for the future
       </h1>
-      <img src={mobileEditorIllustration} alt="editor illustration" />
+      <img
+        className="mx-auto"
+        src={mobileEditorIllustration}
+        alt="editor illustration"
+      />
       <Info
         header="Introducing an extensible editor"
         text="Blogr features an exceedingly intuitive interface which lets you focus
