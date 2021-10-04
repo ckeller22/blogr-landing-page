@@ -12,8 +12,8 @@ const Nav = () => {
   });
 
   return (
-    <nav className="relative ">
-      <div className="container px-8 max-w-6xl mx-auto ">
+    <nav className="">
+      <div className="container px-8 max-w-6xl mx-auto pt-10">
         <div className="flex justify-between">
           {/* Logo */}
           <div className="flex space-x-4">

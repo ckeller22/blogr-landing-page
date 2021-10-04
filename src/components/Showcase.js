@@ -5,7 +5,7 @@ const Showcase = () => {
   return (
     <section className="showcase">
       <Nav />
-      <div className="overlay px-5 flex flex-col items-center justify-center text-center ">
+      <div className="overlay px-5 -mt-10 flex flex-col items-center justify-center text-center ">
         <h1 className="font-bold text-4xl text-white">
           A modern publishing platform
         </h1>
