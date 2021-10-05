@@ -10,8 +10,8 @@ const SectionThree = () => {
           src={mobileLaptopIllustration}
           alt="laptop illustration"
         />
-        <div className="md:flex  border-2 border-red-600">
-          <div className="md:flex md:flex-col md:flex-border-2 border-red-600">
+        <div className="md:flex ">
+          <div className="md:flex md:flex-col ">
             <Info
               header="Free, open, simple"
               text="Blogr is a free and open source application backed by a large community

@@ -4,8 +4,8 @@ const SectionTwo = () => {
   return (
     <section className="dark-section">
       <div className="max-w-6xl mx-auto h-full">
-        <div className="md:flex md:justify-end border-2 border-red-600">
-          <div className="md:flex md:flex-col border-2 border-red-600 md:max-w-md">
+        <div className="md:flex md:justify-end ">
+          <div className="md:flex md:flex-col  md:max-w-md">
             <h2 className="md:text-left md:mx-0 text-white text-center font-semibold text-2xl mx-10 my-5">
               State of the Art Infrastructure
             </h2>

@@ -6,7 +6,7 @@ const FooterBlock = (props) => {
   });
 
   return (
-    <div className="">
+    <div className="lg:text-left lg:mr-20">
       <h2 className=" text-white font-bold my-5">{props.item.title}</h2>
       <div className="flex flex-col">{footerItems}</div>
     </div>

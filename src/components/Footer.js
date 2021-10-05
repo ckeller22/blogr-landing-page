@@ -8,11 +8,19 @@ const Footer = () => {
   });
 
   return (
-    <footer className="footer flex flex-col text-center">
-      {/* Logo */}
-      <img className="mx-auto h-auto my-10" src={brandLogo} alt="brand logo" />
-      {/* Footer Blocks */}
-      {footerBlocks}
+    <footer className="footer">
+      <div className="mx-auto container max-w-6xl flex flex-col lg:flex-row text-center lg:justify-between  lg:py-8">
+        {/* Logo */}
+
+        <img
+          className="mx-auto h-auto my-10 lg:mx-0  lg:h-10 lg:my-5"
+          src={brandLogo}
+          alt="brand logo"
+        />
+
+        {/* Footer Blocks */}
+        {footerBlocks}
+      </div>
     </footer>
   );
 };

@@ -14,13 +14,13 @@ const SectionOne = () => {
         <h1 className="text-center font-bold text-3xl my-20">
           Designed for the future
         </h1>
-        <div className="md:flex border-2 border-red-600">
+        <div className="md:flex ">
           <img
             className="mx-auto md:hidden"
             src={mobileEditorIllustration}
             alt="editor illustration"
           />
-          <div className="md:flex md:flex-col border-2 border-red-600">
+          <div className="md:flex md:flex-col">
             <Info
               header="Introducing an extensible editor"
               text="Blogr features an exceedingly intuitive interface which lets you focus
