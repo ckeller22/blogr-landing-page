@@ -3,7 +3,7 @@ import Nav from "./Nav";
 
 const Showcase = () => {
   return (
-    <section className="showcase">
+    <section className="showcase bg-fixed">
       <Nav />
       <div className="overlay -mt-10 flex flex-col items-center justify-center text-center ">
         <h1 className="font-bold text-4xl text-white max-w-sm">

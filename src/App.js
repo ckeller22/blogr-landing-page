@@ -10,7 +10,7 @@ function App() {
     <div className="">
       <Showcase />
       <SectionOne />
-
+      <SectionTwo />
       <SectionThree />
       <Footer />
     </div>

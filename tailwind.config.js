@@ -16,6 +16,10 @@ module.exports = {
         overpass: ["Overpass", "sans-serif"],
         ubuntu: ["Ubuntu", "sans-serif"],
       },
+      backgroundImage: {
+        "desktop-editor-illustration":
+          "url('./images/illustration-editor-desktop.svg')",
+      },
     },
   },
   variants: {

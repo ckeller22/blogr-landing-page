@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  @variants responsive {
+    .desktop-background {
+      left: 56%;
+    }
+  }
+}
+
 :root {
   /* Variables */
   /* Primary */
@@ -27,6 +35,10 @@
     hsl(237, 17%, 21%),
     hsl(237, 23%, 32%)
   );
+}
+
+* {
+  border: 1px solid red;
 }
 
 img {
@@ -79,6 +91,11 @@ button {
 
 .showcase .overlay {
   min-height: 600px;
+}
+
+/* Second Section */
+.desktop-background {
+  height: 1000px;
 }
 
 .dark-section {
