@@ -66,11 +66,12 @@ button {
 }
 /* Showcase */
 .showcase {
-  background-image: var(--background-gradient);
-  /* background-image: url("images/bg-pattern-intro.svg"); */
-  background-size: 200%;
-  background-position-x: 35%;
-  background-position-y: 45%;
+  background-image: url("./images/bg-pattern-intro.svg"),
+    var(--background-gradient);
+
+  background-size: 350%, 100%;
+  background-position-x: 35%, 0;
+  background-position-y: 45%, 0;
   background-repeat: no-repeat;
   border-bottom-left-radius: 100px;
   height: 600px;

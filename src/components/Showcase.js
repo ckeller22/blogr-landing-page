@@ -5,11 +5,11 @@ const Showcase = () => {
   return (
     <section className="showcase">
       <Nav />
-      <div className="overlay px-5 -mt-10 flex flex-col items-center justify-center text-center ">
-        <h1 className="font-bold text-4xl text-white">
+      <div className="overlay -mt-10 flex flex-col items-center justify-center text-center ">
+        <h1 className="font-bold text-4xl text-white max-w-sm">
           A modern publishing platform
         </h1>
-        <p className="text-white">
+        <p className="text-white max-w-sm">
           Grow your audience and build your online brand
         </p>
         <div className="flex items-center">

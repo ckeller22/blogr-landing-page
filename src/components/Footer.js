@@ -10,11 +10,7 @@ const Footer = () => {
   return (
     <footer className="footer flex flex-col text-center">
       {/* Logo */}
-      <img
-        className="mx-auto h-auto w-20 my-10"
-        src={brandLogo}
-        alt="brand logo"
-      />
+      <img className="mx-auto h-auto my-10" src={brandLogo} alt="brand logo" />
       {/* Footer Blocks */}
       {footerBlocks}
     </footer>
