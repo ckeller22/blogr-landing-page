@@ -6,17 +6,14 @@ const Showcase = () => {
     <section className="showcase bg-fixed">
       <Nav />
       <div className="overlay -mt-10 flex flex-col items-center justify-center text-center ">
-        <h1 className="font-bold text-4xl text-white max-w-sm">
+        <h1 className="font-bold text-4xl text-white max-w-sm md:max-w-none md:text-6xl">
           A modern publishing platform
         </h1>
-        <p className="text-white max-w-sm">
+        <p className="text-white max-w-sm md:text-xl md:max-w-none">
           Grow your audience and build your online brand
         </p>
         <div className="flex items-center">
-          <button
-            type="button"
-            className="text-center bg-white rounded-full mx-1 my-5 py-2 px-4 text-light-red font-bold hover:bg-very-light-red hover:text-white transition duration-200"
-          >
+          <button type="button" className="btn-white mx-1 my-5 ">
             Start for Free
           </button>
           <button

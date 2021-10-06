@@ -1,15 +1,28 @@
 import React, { useState } from "react";
 import brandLogo from "../images/logo.svg";
 import hamburgerMenu from "../images/icon-hamburger.svg";
+import closeIcon from "../images/icon-close.svg";
 import navigation from "../data/navigation";
 import NavItem from "./NavItem";
+import MobileMenu from "./MobileMenu";
 
 const Nav = () => {
   const [navLinks, setNavLinks] = useState(navigation);
+  const [open, setOpen] = useState(false);
 
   const primaryLinks = navigation.map((link) => {
     return <NavItem title={link.title} />;
   });
+
+  const updateMenuIcon = () => {
+    setOpen(!open);
+    var icon = document.getElementById("menu-icon");
+    if (!open) {
+      icon.src = closeIcon;
+    } else {
+      icon.src = hamburgerMenu;
+    }
+  };
 
   return (
     <nav className="">
@@ -17,8 +30,8 @@ const Nav = () => {
         <div className="flex justify-between">
           {/* Logo */}
           <div className="flex space-x-4">
-            <div>
-              <a href="/" className="flex items-center">
+            <div className="flex items-center">
+              <a href="/" className="">
                 <img className="w-18 h-auto" src={brandLogo} alt="Brand Logo" />
               </a>
             </div>
@@ -31,19 +44,23 @@ const Nav = () => {
           </div>
           {/* Secondary Nav */}
           <div className="hidden md:flex items-center space-x-10">
-            <button type="button">Login</button>
-            <button type="button">Sign Up</button>
+            <button type="button" className="btn-nav transition duration-200">
+              Login
+            </button>
+            <button type="button" className="btn-white">
+              Sign Up
+            </button>
           </div>
           {/* Mobile Button*/}
           <div className="md:hidden flex items-center">
-            <button type="button">
-              <img src={hamburgerMenu} alt="Hamburger Menu" />
+            <button type="button" onClick={updateMenuIcon}>
+              <img id="menu-icon" src={hamburgerMenu} alt="Hamburger Menu" />
             </button>
           </div>
         </div>
       </div>
       {/* Mobile Menu */}
-      <div className="hidden">Mobile menu goes here</div>
+      {open && <MobileMenu />}
     </nav>
   );
 };

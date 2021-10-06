@@ -2,8 +2,11 @@ import dropDownArrow from "../images/icon-arrow-light.svg";
 
 const NavItem = (props) => {
   return (
-    <li className=" opacity-75 hover:opacity-100">
-      <button className="text-white font-bold  flex items-center" href="/">
+    <li className="">
+      <button
+        className="btn-nav flex items-center transition duration-200 relative"
+        href="/"
+      >
         {props.title}
         <img className="ml-1 " src={dropDownArrow} alt="dropdown arrow"></img>
       </button>

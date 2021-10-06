@@ -19,6 +19,8 @@ module.exports = {
       backgroundImage: {
         "desktop-editor-illustration":
           "url('./images/illustration-editor-desktop.svg')",
+        "background-gradient":
+          "linear-gradient(135deg, hsl(13, 100%, 72%), hsl(353, 100%, 62%))",
       },
     },
   },
