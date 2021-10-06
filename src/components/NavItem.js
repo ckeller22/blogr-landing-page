@@ -19,7 +19,7 @@ const NavItem = ({ id, title }) => {
       <button className="btn-nav flex items-center 0 relative py-2" href="/">
         {title}
         <img
-          className={`transform transition-transform duration-200 ml-1 ${
+          className={`transform transition-transform duration-200 ease-in ml-1 ${
             open ? "rotate-180" : ""
           }`}
           src={dropDownArrow}

@@ -11,7 +11,7 @@ const SectionOne = () => {
         alt="editor illustration"
       />
       <div className="container max-w-6xl mx-auto">
-        <h1 className="text-center font-bold text-3xl my-20">
+        <h1 className="text-center font-bold text-3xl my-10 mt-20">
           Designed for the future
         </h1>
         <div className="md:flex ">
