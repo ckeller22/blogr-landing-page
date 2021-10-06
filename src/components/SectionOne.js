@@ -6,7 +6,7 @@ const SectionOne = () => {
   return (
     <section className="relative overflow-hidden">
       <img
-        className="hidden md:block absolute md:desktop-background"
+        className="hidden md:block absolute h-full md:desktop-background"
         src={desktopEditorIllustration}
         alt="editor illustration"
       />
