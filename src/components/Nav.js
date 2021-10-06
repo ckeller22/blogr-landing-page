@@ -5,13 +5,16 @@ import closeIcon from "../images/icon-close.svg";
 import navigation from "../data/navigation";
 import NavItem from "./NavItem";
 import MobileMenu from "./MobileMenu";
+import MobileLinkMenu from "./MobileLinkMenu";
+import NavMenu from "./NavMenu";
 
 const Nav = () => {
-  const [navLinks, setNavLinks] = useState(navigation);
   const [open, setOpen] = useState(false);
 
-  const primaryLinks = navigation.map((link) => {
-    return <NavItem title={link.title} />;
+  const primaryLinks = navigation.map((category) => {
+    return (
+      <NavItem key={category.id} id={category.id} title={category.title} />
+    );
   });
 
   const updateMenuIcon = () => {
