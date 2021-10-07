@@ -7,6 +7,27 @@
     .desktop-background {
       left: 56%;
     }
+
+    .background-resize {
+      background-position: -300px -675px, 0% 0%;
+      background-size: 1200px, 100%;
+    }
+
+    .phone-image {
+      top: -175px;
+      height: 325px;
+    }
+
+    .phone-image-reset {
+      top: -300px;
+      height: auto;
+    }
+
+    .showcase-desktop {
+      background-size: auto;
+      background-position-x: 40%, 0;
+      background-position-y: 50%, 0;
+    }
   }
 }
 
@@ -48,7 +69,7 @@
 }
 
 /* Debug borders */
-* {
+.debug-border {
   border: 1px solid red;
 }
 
@@ -104,9 +125,6 @@ button {
 }
 
 /* Second Section */
-.desktop-background {
-  height: 1000px;
-}
 
 .dark-section {
   background-image: url("./images/bg-pattern-circles.svg"), var(--body-gradient);

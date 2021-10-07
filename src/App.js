@@ -4,15 +4,17 @@ import SectionTwo from "./components/SectionTwo";
 import SectionThree from "./components/SectionThree";
 import Footer from "./components/Footer";
 import PhonesIllustration from "./components/PhonesIllustration";
+import DesignSection from "./components/DesignSection";
+import ToolingSection from "./components/ToolingSection";
+import InfraSection from "./components/InfraSection";
 
 function App() {
   return (
     <div className="">
       <Showcase />
-      <SectionOne />
-      <PhonesIllustration />
-      <SectionTwo />
-      <SectionThree />
+      <DesignSection />
+      <InfraSection />
+      <ToolingSection />
       <Footer />
     </div>
   );
