@@ -95,6 +95,15 @@ body {
   font-family: "Overpass", sans-serif;
 }
 
+/* Mobile Menu */
+.slide-in {
+  transform: translateY(-100%);
+}
+
+.menu-bg-opacity {
+  background-color: rgba(45, 46, 64, 0.08);
+}
+
 /* Navigation */
 nav {
   font-family: "Ubuntu", sans-serif;
@@ -163,10 +172,4 @@ button {
 
 footer a:hover::before {
   transform: scaleX(1);
-}
-
-/* Scrollbar */
-
-::webkit-scrollbar {
-  background-color: var(--body-gradient);
 }

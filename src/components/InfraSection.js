@@ -1,5 +1,4 @@
 import phonesIllustration from "../images/illustration-phones.svg";
-import circleIllustration from "../images/bg-pattern-circles.svg";
 
 const InfraSection = () => {
   return (

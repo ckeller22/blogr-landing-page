@@ -1,22 +1,21 @@
-import react, { useState } from "react";
+import { useState } from "react";
 import dropDownArrowDark from "../images/icon-arrow-dark.svg";
-import navigation from "../data/navigation";
 import MobileLinkMenu from "./MobileLinkMenu";
 
 const MobileMenuItem = (props) => {
   const [menuOpen, setOpen] = useState(false);
 
   return (
-    <div className="flex justify-center">
-      <li className="flex my-4 items-center ">
+    <div className=" flex justify-center text-very-dark-blue opacity-8 ">
+      <li className=" flex flex-col my-4 items-center w-full mx-6 ">
         <button
-          className="flex items-center"
+          className=" font-medium flex items-center "
           onClick={() => setOpen(!menuOpen)}
         >
           {props.item.title}
           <img className="ml-2" src={dropDownArrowDark} alt="dropdown arrow" />
-          {menuOpen && <MobileLinkMenu links={props.item.links} />}
         </button>
+        {menuOpen && <MobileLinkMenu links={props.item.links} />}
       </li>
     </div>
   );

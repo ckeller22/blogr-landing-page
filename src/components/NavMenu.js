@@ -1,5 +1,3 @@
-import navigation from "../data/navigation";
-
 const NavMenu = ({ links }) => {
   const items = links.map((link) => {
     return (
