@@ -104,6 +104,38 @@ body {
   background-color: rgba(45, 46, 64, 0.08);
 }
 
+.mobile-nav-menu {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  max-height: 1px;
+  transition: visibility 0.35s, opacity 0.35s, max-height 0.35s;
+}
+
+.mobile-nav-menu.open {
+  display: block;
+  position: absolute;
+  visibility: visible;
+  opacity: 1;
+  max-height: 100%;
+}
+
+.mobile-slide-out {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  max-height: 1px;
+  transition: visibility 0.75s, max-height 0.75s;
+}
+
+.mobile-slide-out.open {
+  display: block;
+  position: static;
+  visibility: visible;
+  opacity: 1;
+  max-height: 300px;
+}
+
 /* Navigation */
 nav {
   font-family: "Ubuntu", sans-serif;

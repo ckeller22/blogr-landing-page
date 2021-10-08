@@ -5,11 +5,6 @@ const InfraSection = () => {
     <section className="mt-56 dark-section md:background-resize relative md:mt-10 md:mb-10">
       <div className="flex flex-col md:grid md:grid-cols-2 md:grid-flow md:items-center">
         <div className="relative">
-          {/* <img
-            className="absolute -top-20"
-            src={circleIllustration}
-            alt="circle illustration"
-          /> */}
           <img
             className="absolute mx-auto left-0 right-0 phone-image md:phone-image-reset"
             src={phonesIllustration}
