@@ -7,6 +7,27 @@
     .desktop-background {
       left: 56%;
     }
+
+    .background-resize {
+      background-position: -300px -675px, 0% 0%;
+      background-size: 1200px, 100%;
+    }
+
+    .phone-image {
+      top: -175px;
+      height: 325px;
+    }
+
+    .phone-image-reset {
+      top: -300px;
+      height: auto;
+    }
+
+    .showcase-desktop {
+      background-size: auto;
+      background-position-x: 40%, 0;
+      background-position-y: 50%, 0;
+    }
   }
 }
 
@@ -48,7 +69,7 @@
 }
 
 /* Debug borders */
-* {
+.debug-border {
   border: 1px solid red;
 }
 
@@ -72,6 +93,47 @@ h6 {
 
 body {
   font-family: "Overpass", sans-serif;
+}
+
+/* Mobile Menu */
+.slide-in {
+  transform: translateY(-100%);
+}
+
+.menu-bg-opacity {
+  background-color: rgba(45, 46, 64, 0.08);
+}
+
+.mobile-nav-menu {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  max-height: 1px;
+  transition: visibility 0.35s, opacity 0.35s, max-height 0.35s;
+}
+
+.mobile-nav-menu.open {
+  display: block;
+  position: absolute;
+  visibility: visible;
+  opacity: 1;
+  max-height: 100%;
+}
+
+.mobile-slide-out {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  max-height: 1px;
+  transition: visibility 0.75s, max-height 0.75s;
+}
+
+.mobile-slide-out.open {
+  display: block;
+  position: static;
+  visibility: visible;
+  opacity: 1;
+  max-height: 300px;
 }
 
 /* Navigation */
@@ -104,9 +166,6 @@ button {
 }
 
 /* Second Section */
-.desktop-background {
-  height: 1000px;
-}
 
 .dark-section {
   background-image: url("./images/bg-pattern-circles.svg"), var(--body-gradient);
@@ -145,10 +204,4 @@ button {
 
 footer a:hover::before {
   transform: scaleX(1);
-}
-
-/* Scrollbar */
-
-::webkit-scrollbar {
-  background-color: var(--body-gradient);
 }

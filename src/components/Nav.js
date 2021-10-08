@@ -5,11 +5,9 @@ import closeIcon from "../images/icon-close.svg";
 import navigation from "../data/navigation";
 import NavItem from "./NavItem";
 import MobileMenu from "./MobileMenu";
-import MobileLinkMenu from "./MobileLinkMenu";
-import NavMenu from "./NavMenu";
 
 const Nav = () => {
-  const [open, setOpen] = useState(false);
+  const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
   const primaryLinks = navigation.map((category) => {
     return (
@@ -17,10 +15,12 @@ const Nav = () => {
     );
   });
 
-  const updateMenuIcon = () => {
-    setOpen(!open);
+  const handleMobileMenuClick = () => {
+    setMobileNavOpen(!mobileNavOpen);
+
+    // Changes image for menu button
     var icon = document.getElementById("menu-icon");
-    if (!open) {
+    if (!mobileNavOpen) {
       icon.src = closeIcon;
     } else {
       icon.src = hamburgerMenu;
@@ -56,14 +56,18 @@ const Nav = () => {
           </div>
           {/* Mobile Button*/}
           <div className="md:hidden flex items-center">
-            <button type="button" onClick={updateMenuIcon}>
-              <img id="menu-icon" src={hamburgerMenu} alt="Hamburger Menu" />
+            <button type="button" onClick={handleMobileMenuClick}>
+              <img
+                id="menu-icon"
+                src={hamburgerMenu}
+                alt="mobile menu button"
+              />
             </button>
           </div>
         </div>
       </div>
       {/* Mobile Menu */}
-      {open && <MobileMenu />}
+      <MobileMenu open={mobileNavOpen} />
     </nav>
   );
 };
