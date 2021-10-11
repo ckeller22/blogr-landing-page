@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop View](../blogr-landing-page/screenshots/blogr-desktop-preview.png)
+![Desktop View](./screenshots/blogr-desktop-preview.png)
 
 ## My process
 
