@@ -29,7 +29,7 @@ const DesignSection = () => {
         <picture className="mx-auto md:mx-0 md:flex md:flex-row md:justify-end md:pt-10">
           <source
             media="(min-width: 800px)"
-            srcset={desktopEditorIllustration}
+            srcSet={desktopEditorIllustration}
           />
           <img
             className=""

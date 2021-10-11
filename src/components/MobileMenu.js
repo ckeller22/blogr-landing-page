@@ -4,7 +4,7 @@ import classNames from "classnames";
 
 const MobileMenu = ({ open }) => {
   const primaryLinks = navigation.map((item) => {
-    return <MobileMenuItem item={item} />;
+    return <MobileMenuItem item={item} key={item.id} />;
   });
 
   const tailwindClasses =

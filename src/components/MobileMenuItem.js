@@ -25,7 +25,11 @@ const MobileMenuItem = (props) => {
             alt="dropdown arrow"
           />
         </button>
-        <MobileLinkMenu open={slideOutOpen} links={props.item.links} />
+        <MobileLinkMenu
+          open={slideOutOpen}
+          links={props.item.links}
+          key={props.item.id}
+        />
       </li>
     </div>
   );

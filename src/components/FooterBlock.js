@@ -2,7 +2,7 @@ import FooterItem from "./FooterItem";
 
 const FooterBlock = (props) => {
   const footerItems = props.item.links.map((link) => {
-    return <FooterItem link={link} />;
+    return <FooterItem link={link} key={link} />;
   });
 
   return (

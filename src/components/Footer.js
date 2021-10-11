@@ -4,7 +4,7 @@ import brandLogo from "../images/logo.svg";
 
 const Footer = () => {
   const footerBlocks = navigation.map((item) => {
-    return <FooterBlock item={item} />;
+    return <FooterBlock item={item} key={item.id} />;
   });
 
   return (

@@ -4,7 +4,11 @@ const MobileLinkMenu = (props) => {
   // slide out items
   const links = props.links.map((link) => {
     return (
-      <a href="/" className="block text-center font-bold opacity-8 w-full">
+      <a
+        href="/"
+        className="block text-center font-bold opacity-8 w-full"
+        key={link}
+      >
         {link}
       </a>
     );
