@@ -8,11 +8,10 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
     - [Links](#links)
+    - [Screenshot](#screenshot)
   - [My process](#my-process)
     - [Built with](#built-with)
-    - [Continued development](#continued-development)
   - [Author](#author)
 
 ## Overview
@@ -24,14 +23,14 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
-
-![](./screenshot.jpg)
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/blogr-landing-page-with-reacttailwindcss-jGrtCJnq3](https://www.frontendmentor.io/solutions/blogr-landing-page-with-reacttailwindcss-jGrtCJnq3)
+- Live Site URL: [https://blogr-landing-page-ckeller22.vercel.app/](https://blogr-landing-page-ckeller22.vercel.app/)
+
+### Screenshot
+
+![Desktop View](../blogr-landing-page/screenshots/blogr-desktop-preview.png)
 
 ## My process
 
@@ -39,12 +38,6 @@ Users should be able to:
 
 - [Tailwind](https://tailwindcss.com/) - CSS Framework
 - [React](https://reactjs.org/) - JS library
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ## Author
 
