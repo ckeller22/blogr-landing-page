@@ -16,7 +16,10 @@ const NavItem = ({ id, title }) => {
         setOpen(!open);
       }}
     >
-      <button className="btn-nav flex items-center 0 relative py-2" href="/">
+      <button
+        className="btn-nav flex items-center 0 relative py-2 transform duration-300"
+        href="/"
+      >
         {title}
         <img
           className={`transform transition-transform duration-200 ease-in ml-1 ${

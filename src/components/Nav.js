@@ -35,7 +35,11 @@ const Nav = () => {
           <div className="flex space-x-4">
             <div className="flex items-center">
               <a href="/" className="">
-                <img className="w-18 h-auto" src={brandLogo} alt="Brand Logo" />
+                <img
+                  className="w-18 h-auto hover:opacity-80 transition duration-300"
+                  src={brandLogo}
+                  alt="Brand Logo"
+                />
               </a>
             </div>
             {/* Primary Nav*/}
