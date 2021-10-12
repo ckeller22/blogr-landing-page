@@ -11,7 +11,7 @@ const MobileLinkMenu = (props) => {
   });
 
   const tailwindClasses =
-    "flex flex-col space-y-2 p-4 rounded menu-bg-opacity mt-6 w-full mx-auto ";
+    "flex flex-col space-y-4 p-5 rounded menu-bg-opacity mt-6 w-full mx-auto ";
 
   const displaySlideOut = classNames(`${tailwindClasses} mobile-slide-out`, {
     open: props.open,

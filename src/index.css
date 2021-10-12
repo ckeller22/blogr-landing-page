@@ -117,7 +117,7 @@ body {
   position: absolute;
   visibility: visible;
   opacity: 1;
-  max-height: 100%;
+  max-height: 3000%;
 }
 
 .mobile-slide-out {
